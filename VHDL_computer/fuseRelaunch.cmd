@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "/home/mika/Projects/projects_workspace/VHDL_processor/VHDL_computer/data_ram_tb_isim_beh.exe" -prj "/home/mika/Projects/projects_workspace/VHDL_processor/VHDL_computer/data_ram_tb_beh.prj" "work.data_ram_tb" 
