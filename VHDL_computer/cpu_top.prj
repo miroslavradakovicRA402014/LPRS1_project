@@ -1,0 +1,6 @@
+vhdl work "reg.vhd"
+vhdl work "mux.vhd"
+vhdl work "ctrl_unit.vhd"
+vhdl work "cnt.vhd"
+vhdl work "alu.vhd"
+vhdl work "cpu_top.vhd"

@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/mika/Projects/projects_workspace/VHDL_processor/VHDL_computer/cpu_top.xst" -ofn "/home/mika/Projects/projects_workspace/VHDL_processor/VHDL_computer/cpu_top.syr" 

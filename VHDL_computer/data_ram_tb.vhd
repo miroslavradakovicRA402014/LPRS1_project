@@ -97,29 +97,35 @@ BEGIN
       -- insert stimulus here 
 		inRST <= '1';
 		
-		iWE <= '1';
+		iWE <= '0';
 		iD <= x"0001";
 		iA <= "00001";
 		
 		wait for iCLK_period*4; 
 		
-		iWE <= '0';
+		iWE <= '1';
 		
 		wait for iCLK_period*2; 
 		
-		iWE <= '1';
+		iWE <= '0';
 		iD <= x"00A0";
 		iA <= "00010";
 		
 		wait for iCLK_period*4;		
 		
-		iWE <= '0';
+		iWE <= '1';
 		
 		wait for iCLK_period*2; 
 		
-		iWE <= '1';
+		iWE <= '0';
 		iD <= x"00AA";
-		iA <= "00011";		
+		iA <= "00011";	
+
+		wait for iCLK_period*4;		
+
+		iWE <= '1';
+		
+		wait for iCLK_period*2; 
 
       wait;
    end process;

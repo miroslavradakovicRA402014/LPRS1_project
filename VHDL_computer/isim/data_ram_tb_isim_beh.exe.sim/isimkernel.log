@@ -2,9 +2,9 @@ Command line:
    data_ram_tb_isim_beh.exe
      -simmode  gui
      -simrunnum  0
-     -socket  36971
+     -socket  35475
 
-Tue Aug 29 14:05:35 2017
+Tue Aug 29 18:26:32 2017
 
 
  Elaboration Time: 0.01 sec
@@ -19,11 +19,12 @@ Tue Aug 29 14:05:35 2017
  Total Processes        : 5
  Total Traceable Variables  : 14
  Total Scalar Nets and Variables : 935
-Total Line Count : 30
+Total Line Count : 33
+Total Line Count : 33
 
- Total Simulation Time: 0.05 sec
+ Total Simulation Time: 0.06 sec
 
  Current Memory Usage: 311.525 Meg
 
-Tue Aug 29 14:06:13 2017
+Tue Aug 29 18:27:35 2017
 
