@@ -1,24 +1,39 @@
-Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/mika/Projects/projects_workspace/VHDL_processor/VHDL_computer/alu_tb_isim_beh.exe -prj /home/mika/Projects/projects_workspace/VHDL_processor/VHDL_computer/alu_tb_beh.prj work.alu_tb 
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/mika/Projects/projects_workspace/VHDL_processor/VHDL_computer/top_tb_isim_beh.exe -prj /home/mika/Projects/projects_workspace/VHDL_processor/VHDL_computer/top_tb_beh.prj work.top_tb 
 ISim P.20131013 (signature 0xfbc00daa)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
+Parsing VHDL file "/home/mika/Projects/projects_workspace/VHDL_processor/VHDL_computer/reg.vhd" into library work
+Parsing VHDL file "/home/mika/Projects/projects_workspace/VHDL_processor/VHDL_computer/mux.vhd" into library work
+Parsing VHDL file "/home/mika/Projects/projects_workspace/VHDL_processor/VHDL_computer/ctrl_unit.vhd" into library work
+Parsing VHDL file "/home/mika/Projects/projects_workspace/VHDL_processor/VHDL_computer/cnt.vhd" into library work
 Parsing VHDL file "/home/mika/Projects/projects_workspace/VHDL_processor/VHDL_computer/alu.vhd" into library work
-Parsing VHDL file "/home/mika/Projects/projects_workspace/VHDL_processor/VHDL_computer/alu_tb.vhd" into library work
+Parsing VHDL file "/home/mika/Projects/projects_workspace/VHDL_processor/VHDL_computer/instr_rom.vhd" into library work
+Parsing VHDL file "/home/mika/Projects/projects_workspace/VHDL_processor/VHDL_computer/data_ram.vhd" into library work
+Parsing VHDL file "/home/mika/Projects/projects_workspace/VHDL_processor/VHDL_computer/cpu_top.vhd" into library work
+Parsing VHDL file "/home/mika/Projects/projects_workspace/VHDL_processor/VHDL_computer/top.vhd" into library work
+Parsing VHDL file "/home/mika/Projects/projects_workspace/VHDL_processor/VHDL_computer/top_tb.vhd" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 96412 KB
-Fuse CPU Usage: 970 ms
+Fuse Memory Usage: 97172 KB
+Fuse CPU Usage: 930 ms
 Compiling package standard
 Compiling package std_logic_1164
 Compiling package std_logic_arith
 Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity reg [\reg(16)\]
+Compiling architecture behavioral of entity mux [\mux(16,4)\]
 Compiling architecture behavioral of entity alu [\alu(16)\]
-Compiling architecture behavior of entity alu_tb
+Compiling architecture behavioral of entity cnt [\cnt(16)\]
+Compiling architecture behavioral of entity ctrl_unit [\ctrl_unit(15,16,4,8,4)\]
+Compiling architecture behavioral of entity cpu_top [\cpu_top(16,15,16,8,4,4)\]
+Compiling architecture behavioral of entity instr_rom [\instr_rom(15,5,32)\]
+Compiling architecture behavioral of entity data_ram [\data_ram(16,5,32)\]
+Compiling architecture behavioral of entity top [\top(16,15,16)\]
+Compiling architecture behavior of entity top_tb
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
-Compiled 7 VHDL Units
-Built simulation executable /home/mika/Projects/projects_workspace/VHDL_processor/VHDL_computer/alu_tb_isim_beh.exe
-Fuse Memory Usage: 1193044 KB
+Compiled 23 VHDL Units
+Built simulation executable /home/mika/Projects/projects_workspace/VHDL_processor/VHDL_computer/top_tb_isim_beh.exe
+Fuse Memory Usage: 1193980 KB
 Fuse CPU Usage: 1040 ms
-GCC CPU Usage: 160 ms
+GCC CPU Usage: 780 ms

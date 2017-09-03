@@ -54,7 +54,7 @@ architecture Behavioral of mux is
 begin
 	--Multipelxer process 
 	process (iR0,iR1,iR2,iR3,iR4,iR5,iR6,iR7,iDATA,iMUX_SEL) begin
-		case (iMUX_SEL) is
+		case (iMUX_SEL(3 downto 0)) is
 			when "0000" => oMUX <= iR0;
 			when "0001" => oMUX <= iR1;
 			when "0010" => oMUX <= iR2;

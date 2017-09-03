@@ -1,0 +1,7 @@
+vhdl isim_temp "reg.vhd"
+vhdl isim_temp "mux.vhd"
+vhdl isim_temp "ctrl_unit.vhd"
+vhdl isim_temp "cnt.vhd"
+vhdl isim_temp "alu.vhd"
+vhdl isim_temp "cpu_top.vhd"
+vhdl isim_temp "cpu_top_tb.vhd"

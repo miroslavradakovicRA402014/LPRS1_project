@@ -119,7 +119,7 @@ begin
 
 	INSRTUCION_ROM_I : instr_rom 
 	port map (
-		iA => sPC,
+		iA => sPC(4 downto 0),
       oQ => sINSTR
 	);
 	
@@ -127,7 +127,7 @@ begin
 	port map (
 	   iCLK => iCLK,
       inRST => inRST,
-      iA => sADDR,
+      iA => sADDR(4 downto 0),
       iD => sDATA_ST,
       iWE => sMEM_WE,
       oQ => sDATA_LD

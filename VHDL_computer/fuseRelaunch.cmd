@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -lib "secureip" -o "/home/mika/Projects/projects_workspace/VHDL_processor/VHDL_computer/alu_tb_isim_beh.exe" -prj "/home/mika/Projects/projects_workspace/VHDL_processor/VHDL_computer/alu_tb_beh.prj" "work.alu_tb" 
+-intstyle "ise" -incremental -lib "secureip" -o "/home/mika/Projects/projects_workspace/VHDL_processor/VHDL_computer/top_tb_isim_beh.exe" -prj "/home/mika/Projects/projects_workspace/VHDL_processor/VHDL_computer/top_tb_beh.prj" "work.top_tb" 
